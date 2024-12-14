@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.register {
+  background-image: url('./src/assets/home_footer.jpg');
+  height: 30vh;
+  /* Cada seção ocupa 100% da altura da tela */
+  display: flex;
+  justify-content: center;
+  /* Centraliza o texto horizontalmente */
+  align-items: center;
+  /* Centraliza o texto verticalmente */
+  background-size: cover;
+  /* Faz a imagem preencher o fundo */
+  background-position: center;
+  /* Centraliza a imagem no fundo */
+  background-repeat: no-repeat;
+  /* Evita repetição da imagem */
+  text-align: center;
+  /* Alinha o texto ao centro */
+  padding: 20px;
+  /* Espaçamento interno */
+  height: 50vh;
+}
+
+h3 {
+  font-family: 'Roboto Flex', sans-serif;
+  color: #D110B8;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-left: 20vh;
+}
+
+.register-button {
+  background-color: #cfecec; /* Cor de fundo do botão */
+  color: #D110B8;
+  padding: 15px 50px;
+  border-radius: 30px;
+  text-decoration: none; /* Remove o underline */
+  font-size: 30px;
+  transition: background-color 0.3s;
+  font-family: 'Roboto Condensed',sans-serif;
+  font-weight: bold;
+  margin-left: 20vh;
+}

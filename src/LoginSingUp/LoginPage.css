@@ -1,0 +1,152 @@
+.login-container {
+    display: flex;
+    justify-content: center !important; 
+    align-items: center !important; 
+    height: 100vh; 
+  }
+  
+  .row {
+    display: flex;
+    gap: 10vh;
+  }
+  
+  .formLogin-container {
+    padding: 5rem;
+    display: grid;
+    align-items: flex-start;
+    justify-items: center;
+    align-content: space-evenly;
+  }
+  
+  .form-container h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .form-container p {
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-container {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 400px;
+  }
+  
+  .button-container button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image-container {
+    height: 95vh;
+    width: auto; 
+    display: block; 
+    margin: -10px;
+  }
+  
+  .image-box {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #ccc; 
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .image-box {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    h1 {
+      font-size: 2.2em;
+    }
+    .row {
+      flex-direction: column; /* Elementos em coluna */
+      align-items: center; /* Centraliza o conteúdo */
+    }
+  
+    .image-container {
+      display: none; /* Oculta a imagem em telas menores */
+    }
+  
+    form {
+      max-width: 100%; /* Faz o formulário ocupar toda a largura */
+    }
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .loginStyle{
+    color: #212121;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+  .loginStyle-subtitle{
+    font-size: 2rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #212121;
+  }
+
+  .singinButton{
+    background-color: red;
+    color: white;
+  }
+
+  .registerButton{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
